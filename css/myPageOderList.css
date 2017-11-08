@@ -1,0 +1,235 @@
+@charset "utf-8";
+#content {
+
+    width: 100%;
+}
+
+.mypagewrap {
+    margin: auto;
+    width: 1040px;
+    padding:100px;
+}
+
+
+/* side nav */
+
+.myNav {
+    display: inline-block;
+    width: 160px;
+    height: 400px;
+
+}
+
+.myNav>h3{
+    display:inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin:-15px 0 30px 15px;
+    color:#739e42;
+    
+}
+
+.myNav ul {
+
+    width: inherit;
+    height: inherit;
+}
+
+.myNav ul > li {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom:1px solid #e7e7e7;
+}
+
+.myNav ul > li:first-child{
+    border-top:1px solid #e7e7e7;
+}
+
+
+.myNav ul > li > a {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    color: #000;
+    font-size: 14px;
+}
+
+.myNav ul > li > a:hover {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #739e42;
+    font-size: 14px;
+}
+
+/*    table start   */
+
+/*   goods contents  */
+
+.myContent:first-child{
+    margin-top:-30px;
+}
+.myContent {
+    margin-top:-30px;
+    float: right;
+    width: 800px;
+    height:100%;
+}
+.myContent>h4{
+    display: inline-block;
+    margin: 20px;
+    margin-left: -1px;
+    height:40px;
+    line-height:40px;
+    font-size: 20px;
+    font-weight: 500;
+    color:#8c8c8c;
+    border-bottom: 3px solid #e7e7e7;
+}
+
+.myContent select{
+    float:right;
+    margin-top:35px;
+    margin-left:10px;
+    width:100px;
+    height:30px;
+    background-color:#fff;
+    border: 1px solid #739e42;
+    color:#739e42;
+}
+
+/*   oder date  */
+
+.oderDate {
+    width: 799px;
+    height: 73px;
+    border: 1px solid #e7e7e7;
+    border-bottom: none;
+    background-color: #f9f9f9;
+}
+
+.oderDate > span {
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    line-height: 73px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.oderDate>a:hover {
+     color:red;
+}
+
+
+
+.oderDate>a {
+    margin-right: 20px;
+    display: inline-block;
+    float: right;
+    line-height: 73px;
+    color: #739e42;
+    font-weight: 600;
+}
+
+
+/*  oder list */
+
+.oderList {
+    width: 799px;
+    height: 232px;
+    border: 1px solid #e7e7e7;
+}
+
+.oderList > table {
+    margin: auto;
+    margin-top: 20px;
+    width: 760px;
+    height: 194px;
+}
+
+.oderList table tr td {
+    border: 1px solid #e7e7e7;
+}
+
+
+.oderList table tr td:first-child {
+    width: 521px;
+    height: 191px;
+
+}
+
+.oderList table tr td:last-child {
+    width: 235px;
+    height: 191px;
+
+}
+
+.oderListButton {
+    display: inline-block;
+    margin: 5px;
+    width: 95px;
+    height: 28px;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #cbc7c7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.oderListButton:hover {
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+    line-height: 30px;
+    background-color: #739e42;
+
+}
+
+.imgContentWrap > a > img {
+    display: inline-block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.imgContentWrap > span {
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.readyBox {
+    margin: auto;
+    width: 110px;
+    text-align: center;
+}
+
+.sendReady {
+    display: inline-block;
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sendGo {
+    display: inline-block;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.clear{
+    content :"";
+    clear:both;
+    display:block;
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/field.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="css/admin_bd_notice.css">
+  <title>파머메이트_admin_bd_notice</title>
+</head>
+
+<body>
+  <!--   start of header-->
+  <div id="header">
+      <div class="login">
+        <a href="#"><input type="text" value="아이디" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <a href="#"><input type="text" value="비밀번호" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="#">로그인</a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="join.html">회원가입</a>
+      </div>
+      <h2 class="logo"><a href="#"><img src="images/header/logo.png" alt="로고" /></a></h2>
+    <nav class="nav">
+      <ul>
+        <li><a href="aboutUs.html">ABOUT US</a></li>
+        <li><a href="shopping.html">SHOPPING</a></li>
+        <li><a href="cart.html">CART</a></li>
+        <li><a>COMMUNITY</a>
+            <ul class="submenu">
+              <li><a href="community_notice.html">공지사항</a></li>
+              <li><a href="community_FnQ.html">자주묻는 질문</a></li>
+              <li><a href="community_photo.html">포토리뷰</a></li>
+            </ul>
+        </li>
+        <li><a href="partner.html">PARTNERSHIP</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--    end of header-->
+  <!--콘텐츠 시작 부분 입니다 여기서부터 각자 코딩 해주세용-->
+  <section id="content">
+    <h2>content영역</h2>
+    <h1 class="title">: Administrator Page</h1>
+    <div class="admin_list">
+      <ul>
+        <li><a href="admin_customer.html"><img src="images/admin/picto1.png" alt="회원관리" /><p>회원관리</p></a></li>
+        <li class="admin_product">
+          <a href="#"><img src="images/admin/picto2.png" alt="상품관리"/><p>상품관리</p></a>
+          <ul>
+            <li><a href="admin_pd_up.html">상품등록</a></li>
+            <li><a href="admin_pd_list.html">상품리스트</a></li>
+          </ul>
+        </li>
+        <li class="admin_board"><a href="#"><img src="images/admin/picto3_on.png" alt="게시판관리"/><p class="p_on">게시판관리</p></a>
+          <ul>
+            <li><a href="admin_bd_notice.html">공지사항</a></li>
+            <li><a href="admin_bd_FnQ.html">F&amp;Q</a></li>
+            <li><a href="admin_bd_photo.html">포토리뷰</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="admin_table">
+      <h2>&#58; 공지사항</h2>
+      <table class="bd_notice" summary="공지사항 테이블" cellspacing="0">
+        <thead>
+          <tr>
+            <th width="55px">NO.</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>작성일</th>
+            <th>조회수</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#">15</a></td>
+            <td><a href="admin_bd_notice_in.html">&#91;공지&#93; 추석 맞이 9월 무료 배송 이벤트 공지</a></td>
+            <td><a href="#">이동익</a></td>
+            <td><a href="#">2017.10.25</a></td>
+            <td><a href="#">120</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">14</a></td>
+            <td><a href="#">&#91;공지&#93; 2017 FARMER MATE 파머메이트, 올해의 베스트 쇼핑몰 선정</a></td>
+            <td><a href="#">김하영</a></td>
+            <td><a href="#">2017.10.24</a></td>
+            <td><a href="#">136</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">13</a></td>
+            <td><a href="#">&#91;당첨자발표&#93; 10월 FARMER MATE 가을 맞이 경품 대잔치&#33;</a></td>
+            <td><a href="#">이동익</a></td>
+            <td><a href="#">2017.10.23</a></td>
+            <td><a href="#">178</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">12</a></td>
+            <td><a href="#">&#91;공지&#93; 주문 상품 품절시 환불 방법 안내</a></td>
+            <td><a href="#">김하영</a></td>
+            <td><a href="#">2017.10.22</a></td>
+            <td><a href="#">15</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">11</a></td>
+            <td><a href="#">&#91;공지&#93; 추석 맞이 9월 무료 배송 이벤트 공지</a></td>
+            <td><a href="#">이동익</a></td>
+            <td><a href="#">2017.10.25</a></td>
+            <td><a href="#">120</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">10</a></td>
+            <td><a href="#">&#91;공지&#93; 추석 맞이 9월 무료 배송 이벤트 공지</a></td>
+            <td><a href="#">이동익</a></td>
+            <td><a href="#">2017.10.25</a></td>
+            <td><a href="#">120</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">9</a></td>
+            <td><a href="#">&#91;공지&#93; 2017 FARMER MATE 파머메이트, 올해의 베스트 쇼핑몰 선정</a></td>
+            <td><a href="#">김하영</a></td>
+            <td><a href="#">2017.10.24</a></td>
+            <td><a href="#">136</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">8</a></td>
+            <td><a href="#">&#91;당첨자발표&#93; 10월 FARMER MATE 가을 맞이 경품 대잔치&#33;</a></td>
+            <td><a href="#">이동익</a></td>
+            <td><a href="#">2017.10.23</a></td>
+            <td><a href="#">178</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">7</a></td>
+            <td><a href="#">&#91;공지&#93; 주문 상품 품절시 환불 방법 안내</a></td>
+            <td><a href="#">김하영</a></td>
+            <td><a href="#">2017.10.22</a></td>
+            <td><a href="#">15</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">6</a></td>
+            <td><a href="#">&#91;공지&#93; 추석 맞이 9월 무료 배송 이벤트 공지</a></td>
+            <td><a href="#">이동익</a></td>
+            <td><a href="#">2017.10.25</a></td>
+            <td><a href="#">120</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">5</a></td>
+            <td><a href="#">&#91;공지&#93; 2017 FARMER MATE 파머메이트, 올해의 베스트 쇼핑몰 선정</a></td>
+            <td><a href="#">김하영</a></td>
+            <td><a href="#">2017.10.24</a></td>
+            <td><a href="#">136</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">4</a></td>
+            <td><a href="#">&#91;당첨자발표&#93; 10월 FARMER MATE 가을 맞이 경품 대잔치&#33;</a></td>
+            <td><a href="#">이동익</a></td>
+            <td><a href="#">2017.10.23</a></td>
+            <td><a href="#">178</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">3</a></td>
+            <td><a href="#">&#91;공지&#93; 주문 상품 품절시 환불 방법 안내</a></td>
+            <td><a href="#">김하영</a></td>
+            <td><a href="#">2017.10.22</a></td>
+            <td><a href="#">15</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">2</a></td>
+            <td><a href="#">&#91;공지&#93; 2017 FARMER MATE 파머메이트, 올해의 베스트 쇼핑몰 선정</a></td>
+            <td><a href="#">김하영</a></td>
+            <td><a href="#">2017.10.24</a></td>
+            <td><a href="#">136</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">1</a></td>
+            <td><a href="#">&#91;당첨자발표&#93; 10월 FARMER MATE 가을 맞이 경품 대잔치&#33;</a></td>
+            <td><a href="#">이동익</a></td>
+            <td><a href="#">2017.10.23</a></td>
+            <td><a href="#">178</a></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+        <div class="notice_up">
+          <a href="admin_bd_notice_up.html"><img src="images/admin/notice_up.png" /></a>
+          <!-- <a href="#"><img src="images/admin/notice_main.png" /></a> -->
+        </div>
+      <div class="admin_table_list">
+        <ul>
+          <li><a href="#"><img src="images/admin/pre.png" alt="이전버튼" /></a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li><a href="#">7</a></li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">9</a></li>
+          <li><a href="#">10</a></li>
+          <li><a href="#"><img src="images/admin/next.png" alt="다음버튼" /></a></li>
+        </ul>
+      </div>
+  </section>
+  <!--   start of footer-->
+  <div id="footer">
+    <div class="footer_top">
+      <ul class="footer_top_list">
+        <li><a href="aboutUs.html">ABOUT US</a></li>
+        <li><a href="shopping.html">SHOPPING</a></li>
+        <li><a href="cart.html">CART</a></li>
+        <li><a href="community_notice.html">COMMUNITY</a></li>
+        <li><a href="partner.html">PARTNERSHIP</a></li>
+        <li><a href="admin_customer.html">관리자페이지</a></li>
+      </ul>
+      <ul class="footer_partner_list">
+        <li><a href="#"><img src="images/footer/part1.png" alt="제휴1" /></a></li>
+        <li><a href="#"><img src="images/footer/part2.png" alt="제휴2" /></a></li>
+        <li><a href="#"><img src="images/footer/part3.png" alt="제휴3" /></a></li>
+        <li><a href="#"><img src="images/footer/part4.png" alt="제휴4" /></a></li>
+        <li><a href="#"><img src="images/footer/part5.png" alt="제휴5" /></a></li>
+        <li><a href="#"><img src="images/footer/part6.png" alt="제휴6" /></a></li>
+        <li><a href="#"><img src="images/footer/part7.png" alt="제휴7" /></a></li>
+
+      </ul>
+    </div>
+    <div class="footer_bottom">
+      <div class="address">
+        <h5>(주) 파머메이트</h5>
+        <p>대표자 : 김대표 / 사업자등록번호 : 501-02-09986 / 주소 : [02160]서울특별시 동대문구 경감로 614 (천군동) / TEL : 02-4200-3800 <br />통신판매신고번호 : 제2017-서울-00774호</p>
+        <p class="copyright">Copyright &copy; 2017 Farmer Mate. All rights reserved.</p>
+      </div>
+      <div class="go_site">
+        <select>
+        <option value="">관련기관 사이트</option>
+      </select>
+        <button type="site_button">이동</button>
+      </div>
+    </div>
+</div>
+  <!--  end of footer-->
+</body>
+
+</html>

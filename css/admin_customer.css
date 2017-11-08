@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*어드민 테이블 - 1200px*/
+.admin_table{width:1200px;margin:auto; margin-bottom:20px;}
+.customer{
+  width:1000px;
+  margin:auto;
+}
+.customer th{
+  padding:12px 0;
+  font-size: 13px;
+  text-align:center;
+  font-family: 'Nanum Square';
+  border-top:2px solid rgb(193,222,151);
+  border-bottom:2px solid rgb(193,222,151);
+  color:#343434;
+  margin-bottom:8px;
+}
+.customer tr:nth-child(2n){ background-color:rgba(161, 161, 161, 0.2);}
+.customer td{
+  padding:10px 0;
+  font-size: 12px;
+  text-align:center;
+  font-weight: normal;
+}

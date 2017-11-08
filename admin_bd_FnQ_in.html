@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/field.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="css/admin_bd_FnQ_in.css">
+  <title>파머메이트_admin_bd_FnQ</title>
+</head>
+
+<body>
+  <!--   start of header-->
+  <div id="header">
+      <div class="login">
+        <a href="#"><input type="text" value="아이디" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <a href="#"><input type="text" value="비밀번호" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="#">로그인</a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="join.html">회원가입</a>
+      </div>
+      <h2 class="logo"><a href="#"><img src="images/header/logo.png" alt="로고" /></a></h2>
+    <nav class="nav">
+      <ul>
+        <li><a href="aboutUs.html">ABOUT US</a></li>
+        <li><a href="shopping.html">SHOPPING</a></li>
+        <li><a href="cart.html">CART</a></li>
+        <li><a>COMMUNITY</a>
+            <ul class="submenu">
+              <li><a href="community_notice.html">공지사항</a></li>
+              <li><a href="community_FnQ.html">자주묻는 질문</a></li>
+              <li><a href="community_photo.html">포토리뷰</a></li>
+            </ul>
+        </li>
+        <li><a href="partner.html">PARTNERSHIP</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--    end of header-->
+  <!--콘텐츠 시작 부분 입니다 여기서부터 각자 코딩 해주세용-->
+  <section id="content">
+    <h2>content영역</h2>
+    <h1 class="title">: Administrator Page</h1>
+    <div class="admin_list">
+      <ul>
+        <li><a href="admin_customer.html"><img src="images/admin/picto1.png" alt="회원관리" /><p>회원관리</p></a></li>
+        <li class="admin_product">
+          <a href="#"><img src="images/admin/picto2.png" alt="상품관리"/><p>상품관리</p></a>
+          <ul>
+            <li><a href="admin_pd_up.html">상품등록</a></li>
+            <li><a href="admin_pd_list.html">상품리스트</a></li>
+          </ul>
+        </li>
+        <li class="admin_board"><a href="#"><img src="images/admin/picto3_on.png" alt="게시판관리"/><p class="p_on">게시판관리</p></a>
+          <ul>
+            <li><a href="admin_bd_notice.html">공지사항</a></li>
+            <li><a href="admin_bd_FnQ.html">F&amp;Q</a></li>
+            <li><a href="admin_bd_photo.html">포토리뷰</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="admin_table">
+      <h2>&#58; F&amp;Q 자주묻는 질문</h2>
+      <table class="FnQ_table" summary="FnQ 테이블" cellspacing="0">
+        <thead>
+          <tr>
+            <th width=120>번호</th>
+            <th width=600>제목</th>
+            <th>조회수</th>
+            <th>작성일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>999</td>
+            <td style=" text-align:left"><a href="#"><img src="images/community/qsmark.png" />PAYCO 간편결제후 주문조회가 되지 않습니다.</a></td>
+            <td>111</td>
+            <td>2017.09.30</td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <p><img src="images/community/asmark.png" />페이코 간편결제 후 주문조회 방법에 대해 안내 드리겠습니다.<br />
+                현 주문건은 비로그인 상태에서 페이코 바로구매로 주문이 진행 되기때문에,<br />
+                위와 같은 경우 주문/배송 조회시 [비회원 주문조회]를 통해 조회 가능 합니다.<br />
+                비회원 주문조회는 [주문자명/주문번호]를 입력하시면 조회 가능 합니다.<br />
+                (*주문번호 확인이 필요할 경우 페이코 홈페이지/결제상세 내역에서 상점 주문번호로 확인 해주세요.)<br />
+                일반결제 진행순서에 대해 안내드리겠습니다.<br />
+                <br />
+                1.주문결제 화면에서 [일반결제]중 원하시는 결제수단 선택후 결제하기 진행<br />
+                2.첫화면에 PAYCO 결제 화면 <br />
+                3.[결제]버튼을 눌러 다음단계로 진행<br />
+                4 약관에 동의하여 [다음단계] 로 이동하시면 일반결제가 가능 합니다.<br />
+                페이코 결제화면 -> [결제] -> 약관동의후 [다음단계] 순으로 진행되고 있습니다. <br />
+                APP으로 결제시-> [결제하기] - [WEB으로 결제] ->페이코결제화면 -> [결제] -> 약관동의후 [다음단계] 순으로 진행되고 있습니다.
+            </td>
+          </tr>
+          <tr class="admin_btn">
+            <td colspan="4">
+              <a href="">메인으로</a>
+              <a href="">삭제</a>
+              <a href="">수정</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <div class="admin_table_list">
+        <ul>
+          <li><a href="#"><img src="images/admin/pre.png" alt="이전버튼" /></a></li>
+          <li><a href="#"><img src="images/admin/next.png" alt="다음버튼" /></a></li>
+        </ul>
+      </div>
+  </section>
+  <!--   start of footer-->
+  <div id="footer">
+    <div class="footer_top">
+      <ul class="footer_top_list">
+        <li><a href="aboutUs.html">ABOUT US</a></li>
+        <li><a href="shopping.html">SHOPPING</a></li>
+        <li><a href="cart.html">CART</a></li>
+        <li><a href="community_notice.html">COMMUNITY</a></li>
+        <li><a href="partner.html">PARTNERSHIP</a></li>
+        <li><a href="admin_customer.html">관리자페이지</a></li>
+      </ul>
+      <ul class="footer_partner_list">
+        <li><a href="#"><img src="images/footer/part1.png" alt="제휴1" /></a></li>
+        <li><a href="#"><img src="images/footer/part2.png" alt="제휴2" /></a></li>
+        <li><a href="#"><img src="images/footer/part3.png" alt="제휴3" /></a></li>
+        <li><a href="#"><img src="images/footer/part4.png" alt="제휴4" /></a></li>
+        <li><a href="#"><img src="images/footer/part5.png" alt="제휴5" /></a></li>
+        <li><a href="#"><img src="images/footer/part6.png" alt="제휴6" /></a></li>
+        <li><a href="#"><img src="images/footer/part7.png" alt="제휴7" /></a></li>
+
+      </ul>
+    </div>
+    <div class="footer_bottom">
+      <div class="address">
+        <h5>(주) 파머메이트</h5>
+        <p>대표자 : 김대표 / 사업자등록번호 : 501-02-09986 / 주소 : [02160]서울특별시 동대문구 경감로 614 (천군동) / TEL : 02-4200-3800 <br />통신판매신고번호 : 제2017-서울-00774호</p>
+        <p class="copyright">Copyright &copy; 2017 Farmer Mate. All rights reserved.</p>
+      </div>
+      <div class="go_site">
+        <select>
+        <option value="">관련기관 사이트</option>
+      </select>
+        <button type="site_button">이동</button>
+      </div>
+    </div>
+</div>
+  <!--  end of footer-->
+
+</body>
+
+</html>

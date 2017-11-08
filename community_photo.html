@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="js/photo.js"></script>
+  <script src="js/field.js"></script>
+  <link rel="stylesheet" href="css/main.css"></link>
+  <link rel="stylesheet" href="css/community_photo.css"></link>
+  <meta charset="utf-8">
+  <title>파머메이트_community_photo</title>
+</head>
+
+<body>
+  <!--   start of header-->
+  <div id="header">
+      <div class="login">
+        <a href="#"><input type="text" value="아이디" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <a href="#"><input type="text" value="비밀번호" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="#">로그인</a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="join.html">회원가입</a>
+      </div>
+      <h2 class="logo"><a href="#"><img src="images/header/logo.png" alt="로고" /></a></h2>
+      <nav class="nav">
+        <ul>
+          <li><a href="aboutUs.html">ABOUT US</a></li>
+          <li><a href="shopping.html">SHOPPING</a></li>
+          <li><a href="cart.html">CART</a></li>
+          <li><a href="#">COMMUNITY</a>
+              <ul class="submenu">
+                <li><a href="community_notice.html">공지사항</a></li>
+                <li><a href="community_FnQ.html">자주묻는 질문</a></li>
+                <li><a href="community_photo.html">포토리뷰</a></li>
+              </ul>
+          </li>
+          <li><a href="partner.html">PARTNERSHIP</a></li>
+        </ul>
+      </nav>
+  </div>
+  <!--    end of header-->
+  <section id="content">
+    <h2>content영역</h2>
+    <h1 class="title">PHOTO REVIEW</h1>
+    <!-- <div class="qna_upload">
+      <a href="#">리뷰작성</a>
+    </div> -->
+    <div class="admin_table">
+      <div class="photo_list">
+        <a href="community_photo_in.html"><img src="images/community/pg1.jpg" alt="포토갤러리1" />
+          <span>더조은 농장 블루베리!<br /> 너무 맛있었어요. 제철이 되면 항상 여기서 주문하는데요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="community_photo_in.html"><img src="images/community/pg2.jpg" alt="포토갤러리1" />
+          <span>싱싱한 딸기 너무 잘 받았습니다. <br />곧 딸기철이 돌아와요. 아이티 농장에서 만나요.곧 딸기철이 돌아와요. 아이티 농장에서 만나요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="community_photo_in.html"><img src="images/community/pg3.jpg" alt="포토갤러리1" />
+          <span>더조은 농장 복숭아에요. <br />다음에도 또 주문하고 싶네요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="community_photo_in.html"><img src="images/community/pg4.jpg" alt="포토갤러리1" />
+          <span>종각농원 브로콜리 강추 합니다! <br />여느 마트나 시장에서 본 브로콜리보다 싱싱해요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="community_photo_in.html"><img src="images/community/pg5.jpg" alt="포토갤러리1" />
+          <span>믿고 사는 파머메이트!<br /> 추석 차례에 쓸 당근을 주문해 보았는데요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="community_photo_in.html"><img src="images/community/pg1.jpg" alt="포토갤러리1" />
+          <span>더조은 농장 블루베리!<br /> 너무 맛있었어요. 제철이 되면 항상 여기서 주문하는데요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="community_photo_in.html"><img src="images/community/pg2.jpg" alt="포토갤러리1" />
+          <span>싱싱한 딸기 너무 잘 받았습니다. <br />곧 딸기철이 돌아와요. 아이티 농장에서 만나요.곧 딸기철이 돌아와요. 아이티 농장에서 만나요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="#"><img src="images/community/pg3.jpg" alt="포토갤러리1" />
+          <span>더조은 농장 복숭아에요. <br />다음에도 또 주문하고 싶네요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="#"><img src="images/community/pg4.jpg" alt="포토갤러리1" />
+          <span>종각농원 브로콜리 강추 합니다! <br />여느 마트나 시장에서 본 브로콜리보다 싱싱해요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="#"><img src="images/community/pg5.jpg" alt="포토갤러리1" />
+          <span>믿고 사는 파머메이트!<br /> 추석 차례에 쓸 당근을 주문해 보았는데요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="#"><img src="images/community/pg1.jpg" alt="포토갤러리1" />
+          <span>더조은 농장 블루베리!<br /> 너무 맛있었어요. 제철이 되면 항상 여기서 주문하는데요.</span></a>
+      </div>
+      <div class="photo_list">
+        <a href="#"><img src="images/community/pg2.jpg" alt="포토갤러리1" />
+          <span>싱싱한 딸기 너무 잘 받았습니다. <br />곧 딸기철이 돌아와요. 아이티 농장에서 만나요.곧 딸기철이 돌아와요. 아이티 농장에서 만나요.</span></a>
+      </div>
+    </div>
+    <div class="admin_table_list">
+      <ul>
+        <li><a href="#"><img src="images/admin/pre.png" alt="이전버튼" /></a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <li><a href="#"><img src="images/admin/next.png" alt="다음버튼" /></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!--   start of footer-->
+  <div id="footer">
+    <div class="footer_top">
+      <ul class="footer_top_list">
+        <li><a href="aboutUs.html">ABOUT US</a></li>
+        <li><a href="shopping.html">SHOPPING</a></li>
+        <li><a href="cart.html">CART</a></li>
+        <li><a href="community_notice.html">COMMUNITY</a></li>
+        <li><a href="partner.html">PARTNERSHIP</a></li>
+      </ul>
+      <ul class="footer_partner_list">
+        <li><a href="#"><img src="images/footer/part1.png" alt="제휴1" /></a></li>
+        <li><a href="#"><img src="images/footer/part2.png" alt="제휴2" /></a></li>
+        <li><a href="#"><img src="images/footer/part3.png" alt="제휴3" /></a></li>
+        <li><a href="#"><img src="images/footer/part4.png" alt="제휴4" /></a></li>
+        <li><a href="#"><img src="images/footer/part5.png" alt="제휴5" /></a></li>
+        <li><a href="#"><img src="images/footer/part6.png" alt="제휴6" /></a></li>
+        <li><a href="#"><img src="images/footer/part7.png" alt="제휴7" /></a></li>
+
+      </ul>
+    </div>
+    <div class="footer_bottom">
+      <div class="address">
+        <h5>(주) 파머메이트</h5>
+        <p>대표자 : 김대표 / 사업자등록번호 : 501-02-09986 / 주소 : [02160]서울특별시 동대문구 경감로 614 (천군동) / TEL : 02-4200-3800 <br />통신판매신고번호 : 제2017-서울-00774호</p>
+        <p class="copyright">Copyright &copy; 2017 Farmer Mate. All rights reserved.</p>
+      </div>
+      <div class="go_site">
+        <select>
+        <option value="">관련기관 사이트</option>
+      </select>
+        <button type="site_button">이동</button>
+      </div>
+    </div>
+</div>
+  <!--  end of footer-->
+
+</body>
+
+</html>

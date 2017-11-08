@@ -1,0 +1,22 @@
+#partner_list{
+  margin:auto;
+  width:1300px;
+  height:750px;
+  padding-top:30px;
+}
+#partner_list .partner_item{
+  width:240px;
+  height:140px;
+  margin:15px 10px;
+  float:left;
+  cursor: pointer;
+}
+#partner_list .partner_item a:hover img{
+  transition: 0.5s;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+}
+#partner_list .partner_item a img{
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+}

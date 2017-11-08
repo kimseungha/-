@@ -1,0 +1,55 @@
+@charset "UTF-8";
+a{color:#626262; transition:all 0.3s; text-decoration: none;}
+
+/*h1 FnQ*/
+#content >h1{
+  display: block; text-transform: uppercase;
+  font: bold 30px '나눔스퀘어';
+  letter-spacing: 3px;
+  width:1000px;
+  text-align: center;
+  margin:0 auto;
+  color:#739e42;
+  padding:30px 0 20px;
+  display: block;
+  border-bottom:2px solid rgb(193,222,151);
+}
+
+/*어드민 테이블 - 1200px*/
+
+.admin_table{width:1200px; margin:auto; margin-bottom:20px; position:relative;}
+
+.FnQ_table{
+  width:1000px;
+  margin:auto;
+}
+.FnQ_table th{
+  padding:12px 0;
+  font-size: 13px;
+  text-align:center;
+  font-weight: bold;
+  border-top:2px solid rgb(193,222,151);
+  border-bottom:2px solid rgb(193,222,151);
+  color:#343434;
+  margin-bottom:8px;
+}
+.FnQ_table td img{margin-right: 8px;}
+.FnQ_table tr:nth-child(2n){ background-color:rgba(145, 145, 145, 0.1);}
+.FnQ_table td{
+  padding:12px 0;
+  font-size: 14px;
+  text-align:center;
+  font-weight: normal;
+}
+.FnQ_table td a{color:#000;}
+.FnQ_table tr:nth-child(2n) td a{font-size:13px; color:#626262;}
+.admin_table_list{width:100%; height:20px; margin-bottom:30px;}
+.admin_table_list ul{width:425px; height:20px; margin:auto;}
+.admin_table_list li{
+  font-size: 14px; line-height: 15px;
+  text-align: center;
+  float:left;
+  margin:0 12px;
+}
+.admin_table_list li a:hover{color:#739e42}
+/*여기서 부터 각자의 컨텐츠들 코딩 하면 됩니다요 */

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*어드민 테이블 - 1200px*/
+.admin_table{width:1200px;margin:auto; margin-bottom:20px;}
+.admin_table h2{width:1000px;}
+.pd_table{
+  width:1000px;
+  margin:10px auto;
+  text-align: center;
+  border:1px solid rgb(193,222,151);
+  border-right: none;
+}
+.pd_table th{
+  padding:5px 0;
+  text-align:center;
+  font: normal 15px/30px 'Nanum Square';
+  border-right:1px solid #fff;
+  background-color: rgb(193,222,151);
+  color:#ffffff;
+  margin-bottom:8px;
+}
+.pd_table th:nth-child(5){border-right:none;}
+.pd_table tr:nth-child(2n){ background-color:rgba(161, 161, 161, 0.1);}
+.pd_table td{border-right:1px solid rgb(193,222,151);}

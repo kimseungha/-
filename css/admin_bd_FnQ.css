@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.admin_table h2{width:1000px;}
+
+.bd_FnQ{
+  width:1000px;
+  margin:auto;
+}
+.bd_FnQ img{margin-right:10px;}
+.bd_FnQ th{
+  padding:12px 0;
+  font-size: 13px;
+  text-align:center;
+  font-family: 'Nanum Square';
+  border-top:2px solid rgb(193,222,151);
+  border-bottom:2px solid rgb(193,222,151);
+  color:#343434;
+  margin-bottom:8px;
+}
+.bd_FnQ tr:nth-child(2n){ background-color:rgba(161, 161, 161, 0.2);}
+.bd_FnQ td{
+  padding:10px 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+}
+.bd_FnQ td:nth-child(2){text-align: left; padding-right:}

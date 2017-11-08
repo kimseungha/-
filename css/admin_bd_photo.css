@@ -1,0 +1,32 @@
+@charset "UTF-8";
+  .admin_table{
+    width:1040px; height:840px;
+    margin:auto; margin-bottom:20px;
+    padding-top:10px;
+    position: relative;
+    z-index: 1;
+  }
+  .admin_table h2{width:1000px;}
+  .photo_list{
+    float:left;
+    width:250px; height: 250px;
+    position:relative;
+    margin:5px;
+    overflow:hidden;
+  }
+  .photo_list span{
+    display: inline-block; position: absolute;
+    left:0; bottom:-40;
+    padding:10px; padding-left: 15px;
+    width:230px;
+    height:40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    line-height:20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color:#424242;
+    }
+.FnQ_up{width:180px; margin:auto; margin-bottom:30px; }

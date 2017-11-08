@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* 센터에 있는 Administrator 텍스트*/
+#content >h1{
+  font-family: '나눔스퀘어', sans-serif;
+  display: block; text-transform: uppercase;
+  letter-spacing: 3px;
+  width:1000px;
+  text-align: center;
+  margin:0 auto;
+  color:#739e42;
+  padding:30px 0 20px;
+  display: block;
+  border-bottom:2px solid rgb(193,222,151);
+}
+/*어드민 큰 제목 ex):상품등록, :상품리스트 .. */
+.admin_table h2{
+  width:800px; margin:10px auto;
+  margin-bottom: 20px;
+  font-size:32px;
+  color:#4a4a4a;
+  font-family: '나눔스퀘어';}
+
+/*어드민 리스트 - 회원관리, 상품관리, 게시판관리 등*/
+.admin_list {
+  width:1000px;
+  margin:auto; padding:15px 0 5px;
+}
+.admin_list ul{width:520px; margin:auto; height:40px;}
+.admin_list > ul >li{
+  width:98px;
+  float:left;
+  display:inline-block;
+  height:40px;
+  margin:0 30px;
+  text-align: center;
+}
+.admin_list ul p {
+  display:inline-block; font-size:12px;
+  line-height: 28px;
+  padding-left: 10px;
+  margin:0; /*고침*/
+}
+.admin_list ul p.p_on{color:#739e42;}
+
+/*토글 서브메뉴*/
+/*product*/
+.admin_list .admin_product{
+  position: relative;
+}
+.admin_list .admin_product ul{
+  padding:0;/*고침*/
+  display: none;
+  position: absolute;
+  top: 35px; left: 0;
+  width: inherit;
+  height:56px;
+  border: 1px solid #739e42;
+  background-color: #fff;
+}
+.admin_list .admin_product ul li{
+  height:28px;
+}
+.admin_list .admin_product ul li a{
+  width:inherit;
+  height: 28px;
+  display: block;
+  font-size: 12px;
+  line-height: 28px;
+}
+.admin_list .admin_product ul li a:hover{
+  color:#fff;
+  background-color: rgb(193,222,151);
+}
+.admin_list .admin_product ul.on{display:block; z-index: 200;} /*쿼리 안돼.. 짜증나*/
+
+/*board*/
+.admin_list .admin_board{
+  position: relative;
+}
+.admin_list .admin_board ul{
+  display: none;
+  position: absolute;
+  top: 35px; left: 0;
+  width: inherit;
+  height:84px;
+  border: 1px solid #739e42;
+  background-color: #fff;
+  padding:0;/*고침*/
+}
+.admin_list .admin_board ul li{
+  height:28px;
+}
+.admin_list .admin_board ul li a{
+  width:inherit;
+  height: 28px;
+  display: block;
+  font-size: 12px;
+  line-height: 28px;
+}
+.admin_list .admin_board ul li a:hover{
+  color:#fff;
+  background-color: rgb(193,222,151);
+}
+.admin_list .admin_board ul.on{display:block; z-index: 200;} /*쿼리 안돼.. 짜증나*/
+
+/*어드민 테이블 - 1200px*/
+.admin_table{width:1200px;margin:auto; margin-bottom:20px;}
+
+  /*테이블 리스트 1234...*/
+.admin_table_list{width:100%; height:20px; margin-bottom:30px;}
+.admin_table_list ul{width:425px; height:20px; margin:auto;}
+.admin_table_list li{
+  font-size: 14px; line-height: 15px;
+  text-align: center;
+  float:left;
+  margin:0 12px;
+}
+.admin_table_list li a:hover{color:#739e42}
+/*어드민 글쓰기 버튼*/
+.notice_up, .FnQ_up, .photo_up{width:1000px !important; margin:auto; margin-bottom:30px;}
+.notice_up a, .FnQ_up a, .photo_up a{margin-left:915px;}

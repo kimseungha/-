@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="js/field.js"></script>
+    <meta charset="utf-8">
+    <title>파머메이트</title>
+    <!--    인풋 창 클릭시 기본 텍스트 지워지게 하는 스크립트-->
+
+
+</head>
+
+<body>
+  <!--   start of header-->
+  <div id="header">
+      <div class="login">
+        <a href="#"><input type="text" value="아이디" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <a href="#"><input type="text" value="비밀번호" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="#">로그인</a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="join.html">회원가입</a>
+      </div>
+      <h2 class="logo"><a href="#"><img src="images/header/logo.png" alt="로고" /></a></h2>
+      <nav class="nav">
+        <ul>
+          <li><a href="aboutUs.html">ABOUT US</a></li>
+          <li><a href="shopping.html">SHOPPING</a></li>
+          <li><a href="cart.html">CART</a></li>
+          <li><a href="#">COMMUNITY</a>
+              <ul class="submenu">
+                <li><a href="community_notice.html">공지사항</a></li>
+                <li><a href="community_FnQ.html">자주묻는 질문</a></li>
+                <li><a href="community_photo.html">포토리뷰</a></li>
+              </ul>
+          </li>
+          <li><a href="partner.html">PARTNERSHIP</a></li>
+        </ul>
+      </nav>
+  </div>
+  <!--    end of header-->
+    <!--콘텐츠 시작 부분 입니다 여기서부터 각자 코딩 해주세용-->
+
+    <section id="content">
+        <!--        wrap         -->
+
+        <div class="mypagewrap">
+            <!--           nav       -->
+            <div class="myNav">
+                <h3>My Page</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">장바구니</a></li>
+
+                        <li><a href="myPageOderList.html">주문목록</a></li>
+
+                        <li><a href="userChnage.html">회원정보수정</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!--            content   table     wrap     start                -->
+            <div class="myContent">
+                <!--oder date-->
+                <h4>장바구니</h4>
+<!--                여기부터     -->
+                <div class="oderDate">
+                    <span><strong>블루베리팜</strong><small> 상품번호 0000000</small></span>
+                    <a href="#">계속 쇼핑하기 > </a>
+                </div>
+                <!--oder list-->
+                <div class="oderList">
+                    <table cellspacing="0">
+                        <tr>
+                            <td>
+                                <form action="">
+                                    <div class="imgContentWrap">
+                                        <input type="checkbox" color="#fff">
+                                        <a href="#">
+                                    <img src="./images/oderImg/blue.jpg" alt="bluebarry"></a>
+                                        <span><strong>더조은농장 블루베리</strong> 01)블루베리 2.4kg</span><br><br>
+                                        <span><strong>주문 번호 </strong>- 0101010101</span><br><br>
+                                        <span>9.800원
+                                        <select>
+                                            <option value="1">1개</option>
+                                            <option value="2">2개</option>
+                                            <option value="3">3개</option>
+                                            <option value="4">4개</option>
+                                            <option value="5">5개</option>
+                                        </select>
+                                        </span>
+
+                                    </div>
+                                </form>
+                            </td>
+                            <td>
+                                <form action="">
+                                    <div class="readyBox">
+                                        <span class="sendReady">무료배송</span>
+                                    <!--<span class="sendReady">배송비:2500원</span>-->
+                                        <!--무료 배송 아니면 배송비: 000 원 로 바뀜 -->
+
+                                        <span class="sendGo">지금 주문시<br>토요일 12/19 도착</span>
+                                        <input type="button" value="주문하기" class="oderListButton"><br>
+                                        <input type="button" value="삭제하기" class="oderListButton"><br>
+                                        <input type="button" value="판매문의" class="oderListButton">
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+<!--                여기까지     -->
+
+
+               <!--                여기부터     -->
+                <div class="oderDate">
+                    <span><strong>블루베리팜</strong><small> 상품번호 0000000</small></span>
+                    <a href="#">계속 쇼핑하기 > </a>
+                </div>
+                <!--oder list-->
+                <div class="oderList">
+                    <table cellspacing="0">
+                        <tr>
+                            <td>
+                                <form action="">
+                                    <div class="imgContentWrap">
+                                        <input type="checkbox" color="#fff">
+                                        <a href="#">
+                                    <img src="./images/oderImg/blue.jpg" alt="bluebarry"></a>
+                                        <span><strong>더조은농장 블루베리</strong> 01)블루베리 2.4kg</span><br><br>
+                                        <span><strong>주문 번호 </strong>- 0101010101</span><br><br>
+                                        <span>9.800원
+                                        <select>
+                                            <option value="1">1개</option>
+                                            <option value="2">2개</option>
+                                            <option value="3">3개</option>
+                                            <option value="4">4개</option>
+                                            <option value="5">5개</option>
+                                        </select>
+                                        </span>
+
+                                    </div>
+                                </form>
+                            </td>
+                            <td>
+                                <form action="">
+                                    <div class="readyBox">
+                                        <span class="sendReady">무료배송</span>
+                                    <!--<span class="sendReady">배송비:2500원</span>-->
+                                        <!--무료 배송 아니면 배송비: 000 원 로 바뀜 -->
+
+                                        <span class="sendGo">지금 주문시<br>토요일 12/19 도착</span>
+                                        <input type="button" value="주문하기" class="oderListButton"><br>
+                                        <input type="button" value="삭제하기" class="oderListButton"><br>
+                                        <input type="button" value="판매문의" class="oderListButton">
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="addList">
+                    <form action="">
+                        <input type="checkbox"><span> 전체선택(0/0)</span>
+                        <input type="button" value="전체삭제">
+                        <input type="button" value="선택삭제">
+
+                        <div class="allPrice">
+                            <span>상품가격 0 원 &#43;</span>
+                            <span>총 배송비 0 원 &#61;</span>
+                            <span><strong>총 주문 금액 <span class="colorRed">0 </span>원</strong></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+ <div class="clear"></div>
+            <!--            mycontent wrap end          -->
+            <!--            all     wrap end       -->
+        </div>
+
+    </section>
+    <!--    end of contents-->
+    <!--   start of footer-->
+    <div id="footer">
+      <div class="footer_top">
+        <ul class="footer_top_list">
+          <li><a href="aboutUs.html">ABOUT US</a></li>
+          <li><a href="shopping.html">SHOPPING</a></li>
+          <li><a href="cart.html">CART</a></li>
+          <li><a href="community_notice.html">COMMUNITY</a></li>
+          <li><a href="partner.html">PARTNERSHIP</a></li>
+        </ul>
+        <ul class="footer_partner_list">
+          <li><a href="#"><img src="images/footer/part1.png" alt="제휴1" /></a></li>
+          <li><a href="#"><img src="images/footer/part2.png" alt="제휴2" /></a></li>
+          <li><a href="#"><img src="images/footer/part3.png" alt="제휴3" /></a></li>
+          <li><a href="#"><img src="images/footer/part4.png" alt="제휴4" /></a></li>
+          <li><a href="#"><img src="images/footer/part5.png" alt="제휴5" /></a></li>
+          <li><a href="#"><img src="images/footer/part6.png" alt="제휴6" /></a></li>
+          <li><a href="#"><img src="images/footer/part7.png" alt="제휴7" /></a></li>
+
+        </ul>
+      </div>
+      <div class="footer_bottom">
+        <div class="address">
+          <h5>(주) 파머메이트</h5>
+          <p>대표자 : 김대표 / 사업자등록번호 : 501-02-09986 / 주소 : [02160]서울특별시 동대문구 경감로 614 (천군동) / TEL : 02-4200-3800 <br />통신판매신고번호 : 제2017-서울-00774호</p>
+          <p class="copyright">Copyright &copy; 2017 Farmer Mate. All rights reserved.</p>
+        </div>
+        <div class="go_site">
+          <select>
+          <option value="">관련기관 사이트</option>
+        </select>
+          <button type="site_button">이동</button>
+        </div>
+      </div>
+  </div>
+    <!--  end of footer-->
+</body>
+
+</html>

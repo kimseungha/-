@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+*{margin:0; padding:0;}
+img{border:0; vertical-align:top; max-width:100%;height:auto;}
+ul{list-style:none;}
+a{color:#626262; transition:all 0.3s; text-decoration: none;}
+body{font-family: "나눔고딕";font-size: 100%; margin-top:170px;}
+
+#header{
+  width:100%;
+  position:relative;
+  background-color: #fff;
+  position: fixed;;
+  top:0;
+  z-index:9999;
+}
+.input-size {
+    width:80px !important;
+    border:1px solid #bebebe !important;
+}
+.login{position:absolute; top:20px; right:40px;font-size: 14px;}
+.login img {margin:3px 4px;}
+.logo{
+  width:100px;
+  height:90px; /*110px*/
+  padding:20px;
+  margin:auto;
+  text-align:center;
+  line-height: 90px;
+}
+/*네비게이션*/
+.nav {width:100%; height:40px; background-color:#fff;
+      /*box-shadow: 0px 0px 5px rgba(193,222,151,1);*/
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    }
+.nav > ul{
+  z-index:1000;
+  width:950px;
+  margin:auto;
+  height:40px;
+}
+.nav ul> li{
+  z-index: 50;
+  float:left;
+  display: inline-block;
+  position: relative;
+}
+.nav ul li a{
+  font-family: "나눔스퀘어";
+  display: inline-block;
+  font-size: 16px;
+  height:40px;
+  width:190px;
+  text-align: center;
+  line-height:40px;
+  cursor: pointer;
+}
+.nav ul li a:hover{background-color:rgba(0,0,0,0.25); color:#fff;}
+/*네비게이션 서브메뉴*/
+.nav ul li .submenu{
+  display: none;
+  position: absolute;
+  width:190px;
+  height: 123px;
+  background-color: #fff;
+  z-index: 10;
+}
+.nav ul li .submenu li{
+  width:190px;
+  display: block;
+  text-align: center;
+  border-top:1px solid #bebebe;
+}
+.nav ul li .submenu li a:hover{background-color: rgb(193,222,151);}
+#content{
+  margin:auto;
+  width:1260px;
+}
+#content>h2{display:none;}
+
+/*여기서 부터 각자의 컨텐츠들 코딩 하면 됩니다요 */
+#footer{
+  width:1260px;
+  margin: 0 auto;
+}
+.footer_top {
+  height: 38px;
+  border-top: 2px solid rgb(193,222,151);
+  border-bottom: 1px solid #bebebe;
+}
+
+.footer_top_list li {
+  height: 38px;
+  float: left;
+  display: inline-block;
+  font-size: 13px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.footer_top_list li a {
+  padding: 0 12px;
+  border-right: 1px solid #bebebe;
+}
+.footer_partner_list{margin-top:6px;float:right;}
+.footer_partner_list li{
+  float:left;
+  padding-left:5px;
+}
+
+.partner {
+  float: right;
+  margin-top: 6px;
+  margin-right: 15px;
+}
+
+.address {
+  float: left;
+  padding: 15px 20px;
+  width: 75%;
+  height: 100px;
+}
+.address > h5 {margin-bottom:6px;}
+.address p {font-size: 13px;line-height: 20px;}
+
+.copyright {color: #8a8a8a;}
+
+.go_site {
+  margin-top: 15px;
+  width: 200px;
+  padding-right: 20px;
+  float: right;
+}
+
+select {
+  width: 150px;
+  height: 28px;
+  background-color: #C1DE97;
+  color: #fff;
+  border: none;
+  line-height: 28px;
+}
+
+.go_site button {
+  float:right;
+  width: 45px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #C1DE97;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.admin_table_list{width:100%; height:20px; margin-bottom:30px;}
+.admin_table_list ul{width:425px; height:20px; margin:auto;}
+.admin_table_list li{
+  font-size: 14px; line-height: 15px;
+  text-align: center;
+  float:left;
+  margin:0 12px;
+}
+.admin_table_list li a:hover{color:#739e42}

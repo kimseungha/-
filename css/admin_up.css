@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*어드민 테이블 - 1200px*/
+.admin_table{width:1200px;margin:auto; margin-bottom:20px;}
+
+/*포토리뷰 등록 폼*/
+form{
+  width:800px;
+  margin:25px auto;
+}
+form > *{ margin:10px 0; display: block;}
+.in_re_btn{ width:280px; height:40px;margin:30px auto 40px;}
+.img_btn{ width:600px;}
+label{font-size:15px; color:#626262;}
+input[type=image]{display: inline-block;}
+input[type=text]{width:350px;height:22px;}
+input[type=file]{height:22px; margin:5px;}

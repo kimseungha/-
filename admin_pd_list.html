@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<!--상품관리 페이지 중 1 상품등록-->
+
+<head>
+  <meta charset="utf-8">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/field.js"></script>
+  <link rel="stylesheet" href="css/main.css"></link>
+  <link rel="stylesheet" href="css/admin.css"></link>
+  <link rel="stylesheet" href="css/admin_pd_list.css"></link>
+  <title>파머메이트_admin_pd_list</title>
+
+</head>
+
+<body>
+  <!--   start of header-->
+  <div id="header">
+      <div class="login">
+        <a href="#"><input type="text" value="아이디" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <a href="#"><input type="text" value="비밀번호" class="input-size" onFocus="clearText(this)" onBlur="clearText(this)"></a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="#">로그인</a>
+        <img src="images/header/col.png" alt="로그인바"/>
+        <a href="join.html">회원가입</a>
+      </div>
+      <h2 class="logo"><a href="#"><img src="images/header/logo.png" alt="로고" /></a></h2>
+    <nav class="nav">
+      <ul>
+        <li><a href="aboutUs.html">ABOUT US</a></li>
+        <li><a href="shopping.html">SHOPPING</a></li>
+        <li><a href="cart.html">CART</a></li>
+        <li><a>COMMUNITY</a>
+            <ul class="submenu">
+              <li><a href="community_notice.html">공지사항</a></li>
+              <li><a href="community_FnQ.html">자주묻는 질문</a></li>
+              <li><a href="community_photo.html">포토리뷰</a></li>
+            </ul>
+        </li>
+        <li><a href="partner.html">PARTNERSHIP</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--    end of header-->
+  <!--콘텐츠 시작 부분 입니다 여기서부터 각자 코딩 해주세용-->
+  <section id="content">
+    <h2>content영역</h2>
+    <h1 class="title">&#58; Administrator Page</h1>
+    <div class="admin_list">
+      <ul>
+        <li><a href="admin_customer.html"><img src="images/admin/picto1.png" alt="회원관리" /><p>회원관리</p></a></li>
+        <li class="admin_product">
+          <a href="#"><img src="images/admin/picto2_on.png" alt="상품관리"/><p class="p_on">상품관리</p></a>
+          <ul>
+            <li><a href="admin_pd_up.html">상품등록</a></li>
+            <li><a href="admin_pd_list.html">상품리스트</a></li>
+          </ul>
+        </li>
+        <li class="admin_board"><a href="#"><img src="images/admin/picto3.png" alt="게시판관리"/><p>게시판관리</p></a>
+          <ul>
+            <li><a href="admin_bd_notice.html">공지사항</a></li>
+            <li><a href="admin_bd_FnQ.html">F&amp;Q</a></li>
+            <li><a href="admin_bd_photo_up.html">포토리뷰</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="admin_table">
+      <h2>&#58; 상품 리스트</h2>
+      <table class="pd_table"summary="상품리스트 테이블" cellspacing="0">
+        <thead>
+          <tr>
+            <th width="55px">No.</th>
+            <th>상품명</th>
+            <th width="120px">작성일</th>
+            <th>조회수</th>
+            <th>이미지</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>10</td>
+            <td>더조은농장 천도복숭아 15kg</td>
+            <td>2017.10.24</td>
+            <td>54</td>
+            <td><img src="images/admin/pd_list1.jpg" /></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>아이티농장 대저토마토 10kg</td>
+            <td>2017.10.22</td>
+            <td>25</td>
+            <td><img src="images/admin/pd_list2.jpg" /></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>더조은농장 천도복숭아 15kg</td>
+            <td>2017.10.24</td>
+            <td>54</td>
+            <td><img src="images/admin/pd_list1.jpg" /></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>더조은농장 천도복숭아 15kg</td>
+            <td>2017.10.24</td>
+            <td>54</td>
+            <td><img src="images/admin/pd_list1.jpg" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="admin_table_list">
+      <ul>
+        <li><a href="#"><img src="images/admin/pre.png" alt="이전버튼" /></a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <li><a href="#"><img src="images/admin/next.png" alt="다음버튼" /></a></li>
+      </ul>
+    </div>
+
+  </section>
+  <!--   start of footer-->
+  <div id="footer">
+    <div class="footer_top">
+      <ul class="footer_top_list">
+        <li><a href="aboutUs.html">ABOUT US</a></li>
+        <li><a href="shopping.html">SHOPPING</a></li>
+        <li><a href="cart.html">CART</a></li>
+        <li><a href="community_notice.html">COMMUNITY</a></li>
+        <li><a href="partner.html">PARTNERSHIP</a></li>
+        <li><a href="admin_customer.html">관리자페이지</a></li>
+      </ul>
+      <ul class="footer_partner_list">
+        <li><a href="#"><img src="images/footer/part1.png" alt="제휴1" /></a></li>
+        <li><a href="#"><img src="images/footer/part2.png" alt="제휴2" /></a></li>
+        <li><a href="#"><img src="images/footer/part3.png" alt="제휴3" /></a></li>
+        <li><a href="#"><img src="images/footer/part4.png" alt="제휴4" /></a></li>
+        <li><a href="#"><img src="images/footer/part5.png" alt="제휴5" /></a></li>
+        <li><a href="#"><img src="images/footer/part6.png" alt="제휴6" /></a></li>
+        <li><a href="#"><img src="images/footer/part7.png" alt="제휴7" /></a></li>
+
+      </ul>
+    </div>
+    <div class="footer_bottom">
+      <div class="address">
+        <h5>(주) 파머메이트</h5>
+        <p>대표자 : 김대표 / 사업자등록번호 : 501-02-09986 / 주소 : [02160]서울특별시 동대문구 경감로 614 (천군동) / TEL : 02-4200-3800 <br />통신판매신고번호 : 제2017-서울-00774호</p>
+        <p class="copyright">Copyright &copy; 2017 Farmer Mate. All rights reserved.</p>
+      </div>
+      <div class="go_site">
+        <select>
+        <option value="">관련기관 사이트</option>
+      </select>
+        <button type="site_button">이동</button>
+      </div>
+    </div>
+</div>
+  <!--  end of footer-->
+</body>
+
+</html>

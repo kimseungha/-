@@ -1,0 +1,53 @@
+/*어드민 테이블 - 1200px*/
+.admin_table{width:1200px;margin:auto; margin-bottom:20px;}
+.admin_table h2{
+  width:1000px; margin:10px auto;
+  margin-bottom: 20px;
+  font-size:32px;
+  color:#4a4a4a;
+  font-family: '나눔스퀘어';}
+.notice_table{
+  width:1000px;
+  margin:auto;
+}
+.notice_table th{
+  padding:12px 0;
+  font-size: 13px;
+  text-align:center;
+  font-weight: bold;
+  border-top:2px solid rgb(193,222,151);
+  border-bottom:2px solid rgb(193,222,151);
+  color:#343434;
+  margin-bottom:8px;
+}
+.notice_table tr:nth-child(2n){ background-color:rgba(145, 145, 145, 0.1);}
+.notice_table tr:nth-child(3){ background-color:rgba(145, 145, 145, 0.1);}
+.notice_table td{
+  padding:12px;
+  font-size: 14px;
+  text-align:center;
+  font-weight: normal;
+}
+.notice_table td p {
+  margin:10px auto 30px;
+  width:700px;
+  font: normal 16px 'Nanum Gothic';
+  line-height: 30px;
+  text-align: left;
+}
+
+.notice_table .admin_btn a{
+  display: inline-block;
+  float:right;
+  font-size:14px;
+  width:100px; height:35px; background-color:#fff;
+  margin-right:5px;
+  line-height: 35px;
+  margin-bottom:40px;
+  border-radius: 3px;
+}
+.notice_table .admin_btn a:nth-child(1){
+  margin-right:120px; background-color:rgb(193,222,151);
+  color:#fff;
+}
+.admin_table_list{width:100px; margin:auto; margin-bottom:30px;}
